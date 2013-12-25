@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Langkahku</string>
+    <string name="sensitivity">Sensitivity\n(lower = more sensitive)</string>
+    
+    <string name="sensitivity_text">"Jumlah Langkah Ku:"</string>
+    <string name="sensitivity_hint">"Sensitivity"</string>
+    
+    <string name="default_text">"0"</string>
+</resources>

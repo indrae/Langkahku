@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  	xmlns:android="http://schemas.android.com/apk/res/android"
+  	android:layout_width="fill_parent" android:layout_height="fill_parent"
+  	android:padding="5dp">
+  	<RelativeLayout
+		android:layout_width="fill_parent" android:layout_height="wrap_content"
+	  	android:layout_alignParentTop="true"
+	  	android:orientation="vertical"
+		android:layout_above="@+id/buttons">
+		<TextView android:id="@+id/input_sensitivity_text"
+			android:layout_width="fill_parent" android:layout_height="wrap_content" 
+			android:text="@string/sensitivity_text" 
+			android:textSize="20dip">
+		</TextView>
+
+		<TextView
+		    android:id="@+id/text"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_below="@+id/input_sensitivity_text"
+		    android:gravity="center"
+		    android:paddingBottom="0dp"
+		    android:paddingLeft="0dp"
+		    android:paddingRight="0dp"
+		    android:paddingTop="0dp"
+		    android:text="@string/default_text"
+		    android:textSize="200sp" />
+		
+	</RelativeLayout>
+	<RelativeLayout android:id="@+id/buttons"
+	 	android:layout_width="fill_parent" android:layout_height="wrap_content"
+		android:layout_gravity="bottom" android:gravity="center_horizontal"
+		android:layout_alignParentBottom="true">
+
+		<ToggleButton
+		    android:id="@+id/StartStopButton"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="center_vertical"
+		    android:background="@null"
+		    android:button="@drawable/check"
+		    android:gravity="center_vertical|center_horizontal|top"
+		    android:minHeight="64dip"
+		    android:minWidth="130dip" >
+
+		</ToggleButton>
+	</RelativeLayout>
+</RelativeLayout>
